@@ -33,11 +33,11 @@ h3, p, span {
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column; /* ترتيب العناصر تحت بعضها (الشعار والعنوان) */
+    align-items: center;    /* توسيط العناصر أفقياً في المنتصف تماماً */
+    justify-content: center; /* توسيط العناصر عمودياً */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
 .logo {
     max-height: 70px; 
     width: auto;     
