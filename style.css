@@ -42,6 +42,11 @@ h3, p, span {
     max-height: 50px;
     width: auto;
 }
+.logo {
+    max-height: 40px; /* تحديد أقصى ارتفاع للشعار ليناسب الترويسة */
+    width: auto;     /* الحفاظ على أبعاد الشعار الأصلية دون تشويه */
+    object-fit: contain;
+}
 
 .header-title h1 {
     color: #ffffff;
