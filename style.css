@@ -39,12 +39,10 @@ h3, p, span {
 }
 
 .logo {
-    max-height: 50px;
-    width: auto;
-}
-.logo {
-    max-height: 40px; /* تحديد أقصى ارتفاع للشعار ليناسب الترويسة */
-    width: auto;     /* الحفاظ على أبعاد الشعار الأصلية دون تشويه */
+    max-height: 70px; 
+    width: auto;     
+    display: block;
+    margin: 0 auto;  
     object-fit: contain;
 }
 
